@@ -11,5 +11,7 @@
 
 # GET http://localhost:3000/campaigns
 
-https://api.fimca.com.br:8051/api/framework/v1/consultaSQLServer/RealizaConsulta/API.CAMPANHA/0/g
-Authorization: Basic dG90dnMuYXBpOnhiY1BrLlRGOTM2eGctZEQ=
+# https://api.fimca.com.br:8051/api/framework/v1/consultaSQLServer/RealizaConsulta/API.CAMPANHA/0/g
+# Authorization: Basic dG90dnMuYXBpOnhiY1BrLlRGOTM2eGctZEQ=
+
+
