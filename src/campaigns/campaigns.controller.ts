@@ -14,7 +14,7 @@ export class CampaignsController {
 
   @Get()
   findAll() {
-    return this.campaignsService.findAll();
+    return ['juliano', 'claudio', 'fernand','daniel',];
   }
 
   @Get(':id')

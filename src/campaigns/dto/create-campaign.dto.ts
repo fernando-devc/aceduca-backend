@@ -1,1 +1,3 @@
-export class CreateCampaignDto {}
+export class CreateCampaignDto {
+    title:string;
+}

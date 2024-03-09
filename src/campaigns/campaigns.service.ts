@@ -1,11 +1,15 @@
 import { Injectable } from '@nestjs/common';
 import { CreateCampaignDto } from './dto/create-campaign.dto';
 import { UpdateCampaignDto } from './dto/update-campaign.dto';
+import { PrismaService } from 'src/prisma/prisma.service';
 
 @Injectable()
 export class CampaignsService {
+
+  constructor(private prisma:PrismaService){}
+
   create(createCampaignDto: CreateCampaignDto) {
-    return 'This action adds a new campaign';
+    return this.prisma.campaigns.create({data: createCampaignDto})
   }
 
   findAll() {
